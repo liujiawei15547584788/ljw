@@ -38,8 +38,7 @@ int main(int argc,
             break;
         }
         fputc(data, file2);
-    }
-
+    };
     fclose(file1);
     fclose(file2);
     return 0;
